@@ -1,0 +1,14 @@
+{
+  "name": "Vine Tracker",
+  "short_name": "Vine",
+  "description": "Track prayer, Bible reading, fasting, and spiritual goals while growing through groups, programs, and faith communities.",
+  "theme_color": "#15803d",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "64x64", "type": "image/x-icon" }
+  ]
+}
