@@ -31,7 +31,9 @@ const ResetPasswordPage = lazy(() => import("./pages/ResetPasswordPage"));
 const RouteFallback = () => (
   <div className="min-h-screen flex items-center justify-center bg-background">
     <div className="text-center space-y-3">
-      <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-2xl text-primary-foreground">🌿</div>
+      <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary overflow-hidden">
+        <img src="/img/vine_tracker_logo-removebg-preview.png" alt="Vine Tracker" className="h-10 w-10 object-contain" />
+      </div>
       <p className="text-sm text-muted-foreground">Loading...</p>
     </div>
   </div>
@@ -59,7 +61,9 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="text-center space-y-3">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-2xl text-primary-foreground">🌿</div>
+          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary overflow-hidden">
+            <img src="/img/vine_tracker_logo-removebg-preview.png" alt="Vine Tracker" className="h-10 w-10 object-contain" />
+          </div>
           <p className="text-sm text-muted-foreground">Loading...</p>
         </div>
       </div>

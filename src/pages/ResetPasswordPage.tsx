@@ -41,7 +41,9 @@ const ResetPasswordPage = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-background px-5">
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-2xl text-primary-foreground">🌿</div>
+          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary overflow-hidden">
+          <img src="/img/vine_tracker_logo-removebg-preview.png" alt="Vine Tracker" className="h-10 w-10 object-contain" />
+        </div>
           <h1 className="mt-3 text-2xl font-bold tracking-tight font-display">Reset password</h1>
           <p className="mt-1 text-sm text-muted-foreground">Choose a new password for your account.</p>
         </div>

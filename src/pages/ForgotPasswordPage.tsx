@@ -30,7 +30,9 @@ const ForgotPasswordPage = () => {
           <ArrowLeft className="h-3.5 w-3.5" /> Back to sign in
         </button>
         <div className="text-center">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-2xl text-primary-foreground">🌿</div>
+          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary overflow-hidden">
+          <img src="/img/vine_tracker_logo-removebg-preview.png" alt="Vine Tracker" className="h-10 w-10 object-contain" />
+        </div>
           <h1 className="mt-3 text-2xl font-bold tracking-tight font-display">Forgot password?</h1>
           <p className="mt-1 text-sm text-muted-foreground">We'll email you a secure link to reset it.</p>
         </div>

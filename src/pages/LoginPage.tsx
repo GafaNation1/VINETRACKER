@@ -41,7 +41,9 @@ const LoginPage = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-background px-5">
       <div className="w-full max-w-sm space-y-8">
         <div className="text-center">
-          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-primary text-3xl text-primary-foreground">🌿</div>
+          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-primary overflow-hidden">
+          <img src="/img/vine_tracker_logo-removebg-preview.png" alt="Vine Tracker" className="h-12 w-12 object-contain" />
+        </div>
           <h1 className="mt-4 text-2xl font-bold tracking-tight font-display">Vine Tracker</h1>
           <p className="mt-1 text-sm text-muted-foreground">Sign in to continue your spiritual journey</p>
         </div>
